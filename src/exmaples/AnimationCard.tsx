@@ -7,13 +7,15 @@ const AnimationCard = () => {
         <motion.div className='bg-white rounded-lg max-w-lg '
             whileHover={{
                 scale: 1.06,
-                skew: '-20deg',
+                skewY: '-20deg',
                 backgroundColor: "pink", //use rgb or hsl for smooth transition
-                transition: { duration: .5 }
+                transition: { type: 'spring', stiffness: 500 }
+
             }}
             whileTap={{
 
-                scale: 0.5
+                scale: 0.9,
+                transition: { type: 'spring', stiffness: 800 }
             }
             }
 
