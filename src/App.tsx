@@ -5,6 +5,7 @@ import StaggerAnimation from "./exmaples/StaggerAnimation"
 import AnimationGallery from "./exmaples/AnimationGallery"
 import MotionHoo from "./exmaples/MotionHoo"
 import Tranformation from "./exmaples/Tranformation"
+import Scroll from "./exmaples/Scroll"
 
 const App = () => {
 
@@ -43,7 +44,8 @@ const App = () => {
         {/* <StaggerAnimation />
         <AnimationGallery /> */}
         {/* <MotionHoo /> */}
-        <Tranformation />
+        {/* <Tranformation /> */}
+        <Scroll />
       </div>
     </div>
   )
