@@ -3,13 +3,14 @@ import InfinityLoader from "./exmaples/infinityLoader"
 import AnimationCard from "./exmaples/AnimationCard"
 import StaggerAnimation from "./exmaples/StaggerAnimation"
 import AnimationGallery from "./exmaples/AnimationGallery"
+import MotionHoo from "./exmaples/MotionHoo"
 
 const App = () => {
 
   return (
-    <div className="bg-green-500 h-screen">
+    <div className="bg-gray-400 h-screen">
       {/* //? basic */}
-      <motion.div className="w-[100px] h-[100px] rounded-full bg-red-500 mx-auto"
+      {/* <motion.div className="w-[100px] h-[100px] rounded-full bg-red-500 mx-auto"
         initial={{
           opacity: 0
         }}
@@ -25,7 +26,7 @@ const App = () => {
         }}
       >
 
-      </motion.div>
+      </motion.div> */}
 
 
       {/* <InfinityLoader /> */}
@@ -35,11 +36,12 @@ const App = () => {
         initial={{ backgroundColor: "hsl(60, 100%, 50%)" }} // Yellow
         whileHover={{ backgroundColor: "hsl(350, 100%, 88%)", transition: { duration: 1.5, ease: "easeInOut", type: 'tween' } }} // Pink
       /> */}
-      <div className="flex justify-center ">
+      <div className="flex justify-center flex-col gap-30 px-10">
 
         {/* <AnimationCard /> */}
-        {/* <StaggerAnimation /> */}
-        <AnimationGallery />
+        {/* <StaggerAnimation />
+        <AnimationGallery /> */}
+        {/* <MotionHoo /> */}
       </div>
     </div>
   )

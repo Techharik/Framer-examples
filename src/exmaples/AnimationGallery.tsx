@@ -54,7 +54,7 @@ const AnimationGallery = () => {
                 gallerImages.map((val, ind) => {
                     return <motion.img
                         variants={childVariants}
-                        src={val} key={ind} className="h-[200px] w-[200px]" />
+                        src={val} key={ind} className="h-[200px] w-[200px] rounded-lg" />
                 })
             }
         </motion.div>
