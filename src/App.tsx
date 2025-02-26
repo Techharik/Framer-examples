@@ -1,6 +1,8 @@
 import { motion } from "motion/react"
 import InfinityLoader from "./exmaples/infinityLoader"
 import AnimationCard from "./exmaples/AnimationCard"
+import StaggerAnimation from "./exmaples/StaggerAnimation"
+import AnimationGallery from "./exmaples/AnimationGallery"
 
 const App = () => {
 
@@ -35,7 +37,9 @@ const App = () => {
       /> */}
       <div className="flex justify-center ">
 
-        <AnimationCard />
+        {/* <AnimationCard /> */}
+        {/* <StaggerAnimation /> */}
+        <AnimationGallery />
       </div>
     </div>
   )
