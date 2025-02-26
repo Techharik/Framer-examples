@@ -1,4 +1,4 @@
-import { motion, useMotionValue, useSpring } from "motion/react";
+import { motion, useSpring } from "motion/react";
 import React, { ChangeEvent } from "react";
 
 const MotionHoo = () => {
