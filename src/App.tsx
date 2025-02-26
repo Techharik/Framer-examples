@@ -6,6 +6,7 @@ import AnimationGallery from "./exmaples/AnimationGallery"
 import MotionHoo from "./exmaples/MotionHoo"
 import Tranformation from "./exmaples/Tranformation"
 import Scroll from "./exmaples/Scroll"
+import Ex2 from "./exmaples/practise/ex2"
 
 const App = () => {
 
@@ -45,7 +46,8 @@ const App = () => {
         <AnimationGallery /> */}
         {/* <MotionHoo /> */}
         {/* <Tranformation /> */}
-        <Scroll />
+        {/* <Scroll /> */}
+        <Ex2 />
       </div>
     </div>
   )
