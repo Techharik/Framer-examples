@@ -1,0 +1,21 @@
+variants- set of state how the element should look like.
+
+gesture - drag , whileHover , whiletap.
+
+stageer Animation --> animate the childern .
+
+Hook :
+useMotionValue ---> removing the smooth transition and building the thransition programatically
+with this hook need to use default styling not framer motion  ---- Custom Motion Values.
+
+useSpring() ---> get and set method of the value.
+
+useTransfrom(motionvalue , input , outputvalue) ----> map one value to another .
+
+scrollTrigger Animation and scrollDriven 
+
+WhileIn View Prop
+
+useScroll(  ) - scrollY, scrollX , scrollProgress,xy,
+
+AnimaePresence to see the  exit animatiojn

@@ -7,11 +7,12 @@ import MotionHoo from "./exmaples/MotionHoo"
 import Tranformation from "./exmaples/Tranformation"
 import Scroll from "./exmaples/Scroll"
 import Ex2 from "./exmaples/practise/ex2"
+import Exercise3 from "./exmaples/challenges/Exercise3"
 
 const App = () => {
 
   return (
-    <div className="bg-gray-400 h-screen">
+    <>
       {/* //? basic */}
       {/* <motion.div className="w-[100px] h-[100px] rounded-full bg-red-500 mx-auto"
         initial={{
@@ -39,17 +40,18 @@ const App = () => {
         initial={{ backgroundColor: "hsl(60, 100%, 50%)" }} // Yellow
         whileHover={{ backgroundColor: "hsl(350, 100%, 88%)", transition: { duration: 1.5, ease: "easeInOut", type: 'tween' } }} // Pink
       /> */}
-      <div className="flex justify-center flex-col gap-30 px-10">
 
-        {/* <AnimationCard /> */}
-        {/* <StaggerAnimation />
-        <AnimationGallery /> */}
-        {/* <MotionHoo /> */}
-        {/* <Tranformation /> */}
-        {/* <Scroll /> */}
-        <Ex2 />
-      </div>
-    </div>
+
+      {/* <AnimationCard /> */}
+      {/* <StaggerAnimation /> */}
+      {/* <AnimationGallery /> */}
+      {/* <MotionHoo /> */}
+      {/* <Tranformation /> */}
+      {/* <Scroll /> */}
+      {/* <Ex2 /> */}
+      <Exercise3 />
+
+    </>
   )
 }
 // transformation // x, y , scale , rotate , skewX ;

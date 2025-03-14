@@ -6,22 +6,26 @@ const parentVariants = {
     visible: {
         opacity: 1,
         transition: {
-            staggerChildren: 0.8
+            staggerChildren: 0.8  //delay of childern exeictuion
         }
     }
 }
 
 const childVariants = {
     hidden: {
-        opacity: 0, y: [20]
+        opacity: 0,
+        y: 20 // Fixed single value
     },
     visible: {
-        opacity: 1, y: [-50, 20, 0],
+        opacity: 1,
+        y: [-50, 20, 0],
+        transition: { duration: 10 } //time taking
     }
-}
+};
 
 const StaggerAnimation = () => {
-    return <motion.div className="flex gap-2 py-10" variants={parentVariants} initial='hidden'
+    return <motion.div className="flex gap-2 py-10" variants={parentVariants}
+        initial='hidden'
         animate='visible'
     >
         {

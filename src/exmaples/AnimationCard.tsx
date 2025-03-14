@@ -10,7 +10,6 @@ const AnimationCard = () => {
                 skewY: '-20deg',
                 backgroundColor: "pink", //use rgb or hsl for smooth transition
                 transition: { type: 'spring', stiffness: 500 }
-
             }}
             whileTap={{
 
