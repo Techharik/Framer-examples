@@ -31,7 +31,6 @@ const AnimationGallery = () => {
     const [showImage, setShowImage] = useState(false)
 
     const handleClick = () => {
-
         setShowImage(!showImage)
     };
 

@@ -142,10 +142,11 @@ const Exercise3 = () => {
             <div className="w-72 h-72 relative overflow-hidden">
                 <AnimatePresence>
                     <motion.img
+
                         src={images[currentIndex]}
                         alt='img'
                         key={currentIndex}
-                        className="w-full h-full"
+                        className="w-full h-full rounded-xl"
                         drag='y'
                         dragConstraints={{ top: 0, bottom: 0 }}
                         onDragEnd={handleSwipe}
