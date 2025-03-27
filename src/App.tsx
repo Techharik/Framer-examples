@@ -11,6 +11,7 @@ import Exercise3 from "./exmaples/challenges/Exercise3"
 import ToolTip from "./exmaples/challenges/ToolTip"
 import ToogleSwitch from "./exmaples/challenges/ToogleSwitch"
 import StaggerList from "./exmaples/challenges/StaggerList"
+import ScrollProgress from "./exmaples/Project/ScrollProgress"
 
 const App = () => {
 
@@ -54,7 +55,8 @@ const App = () => {
       {/* <Ex2 /> */}
       {/* <ToolTip /> */}
       {/* <ToogleSwitch /> */}
-      <StaggerList />
+      {/* <StaggerList /> */}
+      <ScrollProgress />
     </>
   )
 }
